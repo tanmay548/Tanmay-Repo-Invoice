@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f4f4f4;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.invoice-container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 900px;
+    border: 3px solid black;
+    color: #000;
+}
+
+.border-right {
+    border-right: 3px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.header-section {
+    padding: 30px 40px;
+    border-bottom: 3px solid black;
+}
+
+.header-section h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.company-address p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.row {
+    border-bottom: 3px solid black;
+    display: flex;
+}
+
+.split-row {
+    display: flex;
+    width: 100%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.meta-table {
+    width: 100%;
+    padding: 20px 40px;
+    border-collapse: collapse;
+}
+
+.meta-table th {
+    text-align: left;
+    font-size: 13px;
+    width: 140px;
+    padding: 4px 0;
+    font-weight: 800;
+}
+
+.meta-table td {
+    text-align: left;
+    font-size: 13px;
+    padding: 4px 0;
+}
+
+.header-label {
+    padding: 10px 0;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.recipient-name {
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.address-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.items-table th, .items-table td {
+    border-right: 3px solid black;
+    padding: 15px;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.items-table th:last-child, 
+.items-table td:last-child {
+    border-right: none;
+}
+
+.items-table thead tr {
+    border-bottom: 3px solid black;
+}
+
+.items-table tbody tr {
+    border-bottom: 3px solid black;
+}
+
+.col-num { width: 8%; text-align: center; }
+.col-desc { width: 42%; text-align: left; }
+.col-qty { width: 10%; text-align: center; }
+.col-rate { width: 20%; text-align: center; }
+.col-amount { width: 20%; text-align: center; }
+
+.items-table td strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.subtotal-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.subtotal-label {
+    padding: 15px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.subtotal-amount {
+    width: 20%; 
+    padding: 15px;
+    font-weight: 800;
+    font-size: 16px;
+    border-left: 3px solid black;
+    text-align: right;
+    flex-basis: 20%; 
+    text-align: center;
+}
+
+.invoice-footer {
+    padding: 100px 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
